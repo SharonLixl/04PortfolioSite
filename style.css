@@ -1,0 +1,140 @@
+/* Header Style */
+body{
+  margin: 0;
+  position:relative;
+}
+
+#homepageHeader{
+  display: flex;
+  width: 97vw;
+  align-items: top;
+  font-family: 'Raleway', sans-serif;
+  position: fixed;
+  margin: 1em;
+  /* background-color: rgba(255,255,255,0.2); */
+}
+
+#information{
+  flex-basis: 15%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+#name{
+  font-size: 1.5em;
+  font-weight: bolder;
+}
+
+#email{
+   text-decoration: underline;
+}
+
+#selfIntro{
+  flex-basis: 75%;
+  display: flex;
+}
+
+#selfIntroText{
+  width: 70%;
+  font-size: 1em;
+  font-weight: lighter;
+}
+
+#buttons{
+  flex-basis: 150px;
+  display: flex;
+  flex-flow: column;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: right;
+}
+
+#homepageHeader p{
+  margin:0.1em;
+}
+
+.margin{
+  margin: 1em;
+}
+
+
+/* choose type style */
+#chooseType{
+  position: fixed;
+  top: 250px;
+  height: 100px;
+  margin: 1em;
+
+  font-family: 'Raleway', sans-serif;
+  font-size: 2em;
+}
+
+#typeBottonHolders{
+  display: flex;
+  align-items: baseline;
+}
+
+#chooseType img{
+  margin-left: 0.3em;
+  margin-right: 0.3em;
+  width: 0.8em;
+}
+
+.hidden{
+  visibility: hidden;
+}
+
+/* backgroundstyle */
+.bgs{
+  position: absolute;
+  width: 90vw;
+  top: 0;
+  left: 0;
+  z-index: -10;
+  opacity: 0.6;
+
+}
+
+.imageHolder div{
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.imageHolder {
+  width: 100vw;
+  height:100vh;
+  display: flex;
+  justify-content: center;
+}
+
+#object1{
+  background-image: url('backgroundPhotos/Seating.jpg');
+}
+#object2{
+  background-image: url('backgroundPhotos/Gravity.jpg');
+}
+#object3{
+  background-image: url('backgroundPhotos/Circle.jpg');
+}
+#digital1{
+  background-image: url('backgroundPhotos/Evolving.jpg');
+}
+#archi1{
+  background-image: url('backgroundPhotos/Bamboo.jpg');
+}
+#archi2{
+  background-image: url('backgroundPhotos/Reading.jpg');
+}
+
+.bgStyle{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.invisible{
+  display: none;
+}
